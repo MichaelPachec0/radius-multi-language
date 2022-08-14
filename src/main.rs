@@ -33,5 +33,6 @@ fn format_input() -> String {
     // reference to str (&str), convert it to String as this is the variable that function is
     // expected to return.
     // ret.trim_end().to_string()
+    // Yet another way of returning a string from a immutable str
     String::from(ret.trim_end())
 }
